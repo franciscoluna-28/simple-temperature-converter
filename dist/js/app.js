@@ -1,0 +1,4 @@
+const celsiusSelector=document.getElementById("celsiusValueSelector"),
+fahrenheitSelector=document.getElementById("fahrenheitValueSelector"),kelvinSelector=document.getElementById("kelvinValueSelector"),domSelectors=document.getElementsByClassName("input"),
+selectors=[...domSelectors];selectors.forEach(e=>{e.addEventListener("input",e=>{var t=parseFloat(e.target.value);switch(e.target.name)
+{case"celsius":fahrenheitSelector.value=1.8*t+32,kelvinSelector.value=t+273.15;break;case"fahrenheit":celsiusSelector.value=(t-32)/1.8,kelvinSelector.value=(t-32)/1.8+273.15;break;case"kelvin":celsiusSelector.value=t-273.15,fahrenheitSelector.value=1.8*(t-273.15)+32}})});

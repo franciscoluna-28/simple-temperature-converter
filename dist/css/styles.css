@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1047px) {
+  .fa-temperature-three-quarters {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1360px) {
+  .fa-temperature-three-quarters {
+    display: none;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FF8811;
+  font-family: "Inter", sans-serif;
+}
+
+.mainLayout {
+  margin-top: 4rem;
+}
+
+.mainTitle {
+  color: #FFF8F0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-left: auto;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  row-gap: 4rem;
+}
+
+.inputContainer input {
+  height: 4rem;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-radius: 12px;
+  padding-left: 1rem;
+  border: none;
+}
+
+.inputContainer input::-webkit-outer-spin-button,
+.inputContainer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  color: #FFF8F0;
+  padding-top: 2.5rem;
+  line-height: 1.5rem;
+}
+
+.inputWithIcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.inputWithIcon input {
+  width: 60%;
+}
+
+.inputWithIcon .fa-temperature-three-quarters {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  min-width: 50px;
+  padding-right: 12rem;
+  width: 100px;
+  top: 30%;
+}
+
+.fa-temperature-three-quarters {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #A9A794;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
